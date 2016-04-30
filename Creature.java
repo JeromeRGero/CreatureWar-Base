@@ -19,7 +19,10 @@ public class Creature
        hp = 10;
        strength = 10;
    }
-    
+  
+  /**
+  * Method used to get Damage through getHurt
+  */
   public int damage()
   {
        //Bone-Saw is Ready
@@ -30,16 +33,25 @@ public class Creature
        return Pain;
   }
   
+  /**
+  *Method used to inflict Pain
+  */
   public void getHurt(int damage)
   {
       hp= hp-damage;
   }
   
+  /**
+  * Check Health
+  */
   public int getHP()
   {
       return hp;           
   }
   
+  /**
+  * Check Strength
+  */
   public int getSTR()
   {
       return strength;           

@@ -12,7 +12,9 @@ public class Balrog extends Demon
     private int strength;
     Random random = new Random();    
     
-    
+    /**
+     * Constructor
+     */
     public Balrog()
     {
         super();
@@ -20,27 +22,41 @@ public class Balrog extends Demon
         this.hp = hp;
     }
     
-    
+    /**
+     * Set Health
+     */
     public void setHP()
     {
         hp = random.nextInt(10) + 5;
     }
     
+    /**
+     * Set Strength
+     */
     public void setSTR()
     {
         strength = random.nextInt(15) + 8;
     }
     
+    /**
+     * Check Health
+     */
     public int getHP()
     {
         return hp;
     }
     
+    /**
+     * Check Strength
+     */
     public int getSTR()
     {
         return strength;
     }
     
+    /**
+     * Inflict Damage/hurt
+     */
     public int damage()
     {
         int dam, crit;

@@ -23,26 +23,41 @@ public class Elf extends Creature
         this.hp = random.nextInt(15) + 5;
     }
     
+    /**
+     * Set Health
+     */
     public void setHP()
     {
         hp = random.nextInt(15) + 5;
     }
     
+    /**
+     * Set Strength
+     */
     public void setSTR()
     {
         strength = random.nextInt(5) + 5;
     }
     
+    /**
+     * Check Health
+     */
     public int getHP()
     {
         return hp;
     }
     
+    /**
+     * Check Strength
+     */
     public int getSTR()
     {
         return strength;
     }
     
+    /**
+     * Inflict PAINNNNN
+     */
     public int damage()
     {
        Random rand = new Random();

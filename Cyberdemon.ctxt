@@ -1,12 +1,17 @@
 #BlueJ class context
 comment0.params=
 comment0.target=Cyberdemon()
+comment0.text=\r\n\ Constructor\r\n
 comment1.params=
 comment1.target=void\ setHP()
+comment1.text=\r\n\ Set\ Health\r\n
 comment2.params=
 comment2.target=void\ setSTR()
+comment2.text=\r\n\ Set\ Strength\r\n
 comment3.params=
 comment3.target=int\ getHP()
+comment3.text=\r\n\ Check\ Health\r\n
 comment4.params=
 comment4.target=int\ getSTR()
+comment4.text=\r\n\ Check\ Strength\r\n
 numComments=5

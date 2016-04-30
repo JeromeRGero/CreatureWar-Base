@@ -31,7 +31,7 @@ public class War
     }
 
     /**
-     * No re
+     * No Method used to get the good guys
      */
     public void getGud()
     {
@@ -53,6 +53,9 @@ public class War
         }
     }
     
+    /**
+     * No Method used to get the Bad guys
+     */
     public void getBad()
     {
         int chip;
@@ -73,6 +76,9 @@ public class War
         }
     }
     
+    /**
+     * Basically the Main method
+     */
     public void PlayLaunch()
     {
         int GG, BG;

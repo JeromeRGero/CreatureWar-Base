@@ -23,21 +23,33 @@ public class Human extends Creature
         this.hp = random.nextInt(25) + 6;
     }
     
+    /**
+     * set Health
+     */
     public void setHP()
     {
         hp = random.nextInt(25) + 6;
     }
     
+    /**
+     * set Strength
+     */
     public void setSTR()
     {
         strength = random.nextInt(13) + 6;
     }
     
+    /**
+     * Check Health
+     */
     public int getHP()
     {
         return hp;
     }
     
+    /**
+     * Check Strength
+     */
     public int getSTR()
     {
         return strength;

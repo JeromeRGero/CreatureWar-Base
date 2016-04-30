@@ -23,26 +23,41 @@ public class Demon extends Creature
         this.hp = hp;
     }
     
+    /**
+    * Set Health
+    */
     public void setHP()
     {
         hp = random.nextInt(10) + 5;
     }
     
+    /**
+    * Set Strength
+    */
     public void setSTR()
     {
         strength = random.nextInt(15) + 8;
     }
     
+    /**
+    * Check Health
+    */
     public int getHP()
     {
         return hp;
     }
     
+    /**
+    * Check Strength
+    */
     public int getSTR()
     {
         return strength;
     }
     
+    /**
+    * How much Damage will be inflicted
+    */
     public int damage()
     {
        Random rand = new Random();
